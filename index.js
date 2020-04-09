@@ -70,7 +70,7 @@ class WXPay {
       case 'getsignkey':
         break;
       default:
-        if (json.result_code !== 'SUCCESS') throw new Error(json.err_code || 'XMLDataError');
+        if (json.result_code !== 'SUCCESS') throw new Error(json.return_msg || 'XMLDataError');
     }
 
     switch (type) {
