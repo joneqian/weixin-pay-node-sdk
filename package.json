@@ -1,0 +1,55 @@
+{
+  "name": "weixin-pay-node-sdk",
+  "version": "1.0.0",
+  "description": "微信支付sdk",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "commit": "git cz",
+    "genlog": "conventional-changelog -p angular -i .github/CHANGELOG.md -s"
+  },
+  "keywords": [
+    "weixin",
+    "pay"
+  ],
+  "files": [
+    "index.js",
+    "libs"
+  ],
+  "dependencies": {
+    "urllib": "^2.34.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "chai": "^4.2.0",
+    "commitizen": "^4.0.3",
+    "copyfiles": "^2.1.1",
+    "cross-env": "^5.2.0",
+    "cz-customizable": "^6.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.16.0",
+    "lint-staged": "^8.1.7",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "shx": "^0.3.2",
+    "supertest": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joneqian/weixin-pay-node-sdk"
+  },
+  "author": "qian.qing@aliyun.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joneqian/weixin-pay-node-sdk/issues"
+  },
+  "homepage": "https://github.com/joneqian/weixin-pay-node-sdk#readme"
+}
